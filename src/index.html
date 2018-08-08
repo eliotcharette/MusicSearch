@@ -1,10 +1,19 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Journal</title>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <title>Song Search</title>
   </head>
   <body>
-
+    <div class="container">
+      <h1>Search Songs by Artist, Title, or Lyrics!</h1>
+      <label for="artist">Enter a Artist:</label>
+      <input id="artist" type="text">
+      <label for="track">Add a track title:</label>
+      <input id="track" type="text">
+      <label for="lyric">Search by a word in the Lyrics:</label>
+      <input id="lyric" type="text">
+      <button class="btn-success" id="search">Search!</button>
+          <div class="title"></div>
+    </div>
   </body>
 </html>
